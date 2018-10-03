@@ -1,0 +1,197 @@
+.loginbody{
+	background: #fff;
+	border:solid 1px #c9c9c9;
+	padding: 23px 20px;
+}
+
+.lgn{
+	text-align: center;
+	font-size: 25px;
+	font-weight:600;
+	color:#585453;
+	padding-bottom: 30px;
+}
+
+.socialicons{
+	margin:0px auto;
+	padding-bottom: 25px;
+}
+
+.socialicons a{
+	float:left;
+	margin: 0px 10px;
+}
+
+.or{
+	margin: 0px auto;
+	font-size: 10px;
+	width: 20px;
+	height: 20px;
+	border:solid 1px #dadada;
+	border-radius:100%;
+	text-align: center;
+	line-height: 20px;
+	color:#000;
+	margin-bottom: 20px;
+}
+
+.or:after{
+	content:"";
+	position: absolute;
+	width: 40%;
+	border-top:solid 1px #cecece;
+	left: 20px;
+	margin-top:10px;	
+}
+.or:before{
+	content:"";
+	position: absolute;
+	width: 40%;
+	border-top:solid 1px #cecece;
+	right: 20px;
+	margin-top:10px;	
+}
+
+.logelemt{
+	max-width: 320px;
+	margin: 0px auto;
+}
+
+.loginbody input[type="text"], .loginbody input[type="password"]{
+	padding:8px 20px 8px 10px;
+	background: #f1f1f1;
+	border:solid 1px #c0c0c0;
+	margin-bottom: 15px;
+}
+
+.fgp{
+	float: right;
+	font-size: 12px;
+}
+
+.fgp a{
+	color:#4b4a47;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.fgp a:hover{
+	color:#08c;
+}
+
+.agree{
+	float:left;
+}
+
+.agree input{
+	margin-left: -22px;
+}
+
+.agree .lbl{
+	margin-left: 0px !important;
+}
+
+.btn.disabled, .btn-default.disabled, .btn[disabled], .btn-default[disabled]{
+	background-color: #5c5c5c !important;
+	border-radius:0px;
+	padding: 5px 25px; 
+}
+
+button.btnnew {
+    border-radius: 0px;
+    margin-top: 15px;
+}
+
+.loginarea p{
+	padding: 20px 0px 0px 0px;
+	margin: 0px;
+	font-size: 12px;
+}
+.loginarea a{
+	color:#4b4a47;
+	text-decoration: underline;
+}
+
+/* Promotion CSS */
+
+#mobappbanner{
+	display:none;
+	background: url(images/mobbg.jpg) 0px 0px no-repeat;
+	background-size:cover;
+	overflow: hidden;
+	color: #ffffff;
+	font-size: 14px;
+	position: fixed;
+	bottom:0px;
+	width: 100%;
+	z-index: 99999999999;
+}
+#mobappbanner .fl{
+	background: #000000;
+    height: 45px;
+    line-height: 0;
+    padding: 7px 8px 8px 7px;
+    margin-right: 10px;
+}
+#mobappbanner .fr{
+    margin: 18px 12px 0px 0px;
+}
+#mobappbanner div[role]{
+	float: left;
+}
+#mobappbanner span{
+	display: inline-block;
+	padding-top: 5px;
+	color: #a6c709;
+}
+.midadd{
+	display: none;
+}
+@media only screen and (max-width:600px){
+	#mobappbanner{
+		display: block;
+	}
+}
+@media only screen and (max-width:480px){
+	#mobappbanner div[role]{
+		font-size: 12px;
+		width: 140px;
+		line-height: 14px;
+	}
+}
+@media only screen and (min-width:600px){
+	#toppanel{
+		height: 90px;
+	}
+	.leftcorn{
+		padding-top: 15px;
+	}
+	.toprt{
+		padding-top: 30px;
+	}
+	.midadd{
+		float: left;
+		display:block;
+		width: calc(98% - 500px);
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width:1200px) {
+	.midadd{
+		margin-top: 5px;
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	.midadd{
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (max-width:768px){
+	.midadd{
+		width: calc(98% - 350px);
+		margin-top: 25px;
+	}
+}

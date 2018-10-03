@@ -1,0 +1,62 @@
+<div id="toppanel">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <div class="leftcorn">
+        <a href="#/dashboards"> <img [src]="domainLogo" alt="Vertoz" />
+        </a>
+      </div>
+      <a title="Back to my login" style="cursor: pointer;" *ngIf="showbacktomylogin"><img src="assets/images/backbutton.png"
+          (click)="backtomylogin();" />
+      </a>
+      <!--/.brand-->
+      <ul class="nav ace-nav pull-right">
+        <li *ngIf="(isPublisher || isAgency) && fromVertozDomain">
+          <a data-toggle="dropdown" class="dropdown-toggle helps">
+            <div [hidden]="subGroupId!=1">
+              <img src="assets/icons/balicon.png" style="width:19px;margin-top:-4px;" />
+              <span> Balance Summary </span> <i class="icon-angle-down"></i> <span class="badge badge-grey"></span>
+            </div>
+          </a>
+          <ul id="balsum_menu" class="dropdown-menu">
+            <li style="cursor: pointer;" [hidden]="subGroupId!=1"><a href="#/accounting/transact-history"> Balance<span>&nbsp;&nbsp;${{advertiserBalance
+                  | number : 2}}</span></a></li>
+            <li style="cursor: pointer;" [hidden]="true"><a> Earnings<span>&nbsp;&nbsp;${{publisherEarnings | number :
+                  2}}</span></a></li>
+            <li style="cursor: pointer;" [hidden]="subGroupId!=1"><a href="#/accounting/ad-credit"> Add Funds</a></li>
+            <li style="cursor: pointer;" [hidden]="true"><a href="#/accounting/payment-setting"> Payment Settings</a></li>
+          </ul>
+        </li>
+        <li><a data-toggle="dropdown" class="dropdown-toggle helps" *ngIf="false">
+            <img src="assets/icons/help-icon.png" style="height: 18px; width: 18px; margin-top: -4px;" /> <span id="helpsup_info">
+              Help </span> <i class="icon-angle-down"></i> <span class="badge badge-grey">4</span>
+          </a>
+          <ul id="help_menu" class="pull-right dropdown-menu dropdown-caret dropdown-closer">
+            <li style="cursor: pointer;"><a (click)="openPage(1)" class="ico-knw"> Knowledge Base</a></li>
+            <li style="cursor: pointer;" *ngIf="fromVertozDomain"><a (click)="openPage(2)" class="ico-support"> Support
+                Centre</a></li>
+          </ul>
+        </li>
+        <li class="user-profile" *ngIf="false">
+          <a data-toggle="dropdown" class="user-menu dropdown-toggle"> <span id="user_info">
+              <small>Welcome, </small>{{username}}
+            </span> <i class="icon-angle-down" ng-hide="privilegeId>1"></i>
+          </a>
+          <ul class="pull-right dropdown-menu dropdown-caret dropdown-closer" id="user_menu">
+            <li><a href="#/accountsettings" class="ico-c"> Account
+                Settings</a></li>
+            <li [hidden]="!showPwd"><a href="#/changepass" class="ico-pw" (click)="menu_two();">Change Password</a></li>
+            <li [hidden]="!isAdminHeader"><a href="#/login-history" class="ico-lgn" (click)="menu_three();">Login
+                History</a></li>
+            <li [hidden]="!(!isAdminHeader || isAgency) && privilegeId<2"><a href="#/account-users" class="ico-lgn">Account
+                Users</a></li>
+          </ul>
+        </li>
+
+        <li id="log_out"><a title="Logout"><button class="icon-logout" id="logout" (click)="logout();"></button></a></li>
+      </ul>
+      <!--/.ace-nav-->
+    </div>
+    <!--/.container-fluid-->
+  </div>
+</div>
+<!--/.navbar-inner-->
