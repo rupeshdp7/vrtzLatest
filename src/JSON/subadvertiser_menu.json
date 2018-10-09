@@ -1,0 +1,68 @@
+[    
+    {
+        "MenuID": 1,
+        "Text": "Dashboard",
+        "Description": "Dashboard",
+        "ParentID": "NULL",
+        "RoleTypeId": 16,
+        "URL": "dash",
+        "UURL": "#/dashboard",
+        "StatusId": 1
+    },
+      {
+        "MenuID": 2,
+        "Text": "Campaigns",
+        "Description": "Campaigns",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "campg",
+        "StatusId": 1,
+        "submenu":[
+    		{
+		        "Text": "Campaign Management",
+		        "Description": "Campaign Management",
+		        "ParentID": "2",
+		        "RoleTypeId": 16,
+		        "URL": "#/campaigns/list-campaigns",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Creatives Management",
+		        "Description": "Creatives Management",
+		        "ParentID": "5",
+		        "RoleTypeId": 16,
+		        "URL": "#/creatives",
+		        "StatusId": 1
+		    } 
+        ]
+    }, 
+    {
+        "MenuID": 6,
+        "Text": "Reports",
+        "Description": "Reports",
+        "ParentID": "NULL",
+        "RoleTypeId": 16,
+        "URL": "report",
+        "StatusId": 1,
+         "submenu":[
+		    {
+		        "Text": "Campaign Report",
+		        "Description": "Campaign Report",
+		        "ParentID": "42",
+		        "RoleTypeId": 16,
+		        "URL": "#/reports/campaign-report",
+		        "StatusId": 1
+		    }
+         ]
+    },
+    {
+        "MenuID": 21,
+        "Text": "List",
+        "Description": "List",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "audn",
+        "UURL": "#/list",
+        "StatusId": 1       
+    }
+]   

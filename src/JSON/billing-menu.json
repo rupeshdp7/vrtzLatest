@@ -1,0 +1,56 @@
+[    
+	{
+        "MenuID": 12,
+        "Text": "Payout",
+        "Description": "Payout",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "payout",
+        "StatusId": 1,
+        "submenu":[        	
+		    {
+		        "Text": "Payout List",
+		        "Description": "Payout List for Billing Team",
+		        "ParentID": "24",
+		        "RoleTypeId": 2,
+		        "URL": "#/payout/payout-list-billing",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Payout Status",
+		        "Description": "Payout Status ",
+		        "ParentID": "24",
+		        "RoleTypeId": 2,
+		        "URL": "#/payout/payout-status",
+		        "StatusId": 1
+		    }
+        ]
+    } ,
+    {
+        "MenuID": 9,
+        "Text": "Accounting",
+        "Description": "Accounting",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "accoutn",
+        "StatusId": 1,
+         "submenu":[
+         	{
+		        "Text": "Add Credit/Debit",
+		        "Description": "Add Credit/Debit",
+		        "ParentID": "16",
+		        "RoleTypeId": 9,
+		        "URL": "#/accounting/ad-credit-admin",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Campaign Transactions",
+		        "Description": "Transaction History",
+		        "ParentID": "16",
+		        "RoleTypeId": 9,
+		        "URL": "#/accounting/transact-history",
+		        "StatusId": 1
+		    }
+         ]
+    }
+]

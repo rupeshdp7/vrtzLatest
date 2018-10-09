@@ -1,0 +1,1605 @@
+[
+    {
+        "entry_id": 164,
+        "countryName": "Afghanistan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 154,
+        "countryName": "Albania",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 66,
+        "countryName": "Algeria",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 246,
+        "countryName": "All Countrys",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 148,
+        "countryName": "Angola",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 145,
+        "countryName": "Argentina",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 152,
+        "countryName": "Armenia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 142,
+        "countryName": "Australia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 143,
+        "countryName": "Austria",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 135,
+        "countryName": "Azerbaijan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 111,
+        "countryName": "Bahamas",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 120,
+        "countryName": "Bahrain",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 127,
+        "countryName": "Bangladesh",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 107,
+        "countryName": "Belarus",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 125,
+        "countryName": "Belgium",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 106,
+        "countryName": "Belize",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 118,
+        "countryName": "Benin",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 110,
+        "countryName": "Bhutan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 114,
+        "countryName": "Bolivia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 130,
+        "countryName": "Bosnia and Herzegovina",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 108,
+        "countryName": "Botswana",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 112,
+        "countryName": "Brazil",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 115,
+        "countryName": "Brunei",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 122,
+        "countryName": "Bulgaria",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 123,
+        "countryName": "Burkina Faso",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 119,
+        "countryName": "Burundi",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 200,
+        "countryName": "Cambodia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 95,
+        "countryName": "Cameroon",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 105,
+        "countryName": "Canada",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 89,
+        "countryName": "Cape Verde",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 101,
+        "countryName": "Central African Republic",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 9,
+        "countryName": "Chad",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 96,
+        "countryName": "Chile",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 94,
+        "countryName": "China",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 93,
+        "countryName": "Colombia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 198,
+        "countryName": "Comoros",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 100,
+        "countryName": "Congo",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 102,
+        "countryName": "Congo, Democractic Republic",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 92,
+        "countryName": "Costa Rica",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 233,
+        "countryName": "Croatia (Hrvatska)",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 91,
+        "countryName": "Cuba",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 87,
+        "countryName": "Cyprus",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 85,
+        "countryName": "Czech Republic",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 72,
+        "countryName": "Denmark",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 73,
+        "countryName": "Djibouti",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 68,
+        "countryName": "Dominican Republic",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 242,
+        "countryName": "East Timor",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 65,
+        "countryName": "Ecuador",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 63,
+        "countryName": "Egypt",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 23,
+        "countryName": "El Salvador",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 16,
+        "countryName": "Equatorial Guinea",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 61,
+        "countryName": "Eritrea",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 64,
+        "countryName": "Estonia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 59,
+        "countryName": "Ethiopia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 52,
+        "countryName": "Falkland Islands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 49,
+        "countryName": "Faroe Islands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 54,
+        "countryName": "Fiji Islands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 55,
+        "countryName": "Finland",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 48,
+        "countryName": "France",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 44,
+        "countryName": "France, Metropolitan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 29,
+        "countryName": "French Guiana",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 84,
+        "countryName": "French Polynesia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 7,
+        "countryName": "French Southern Territories",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 36,
+        "countryName": "Gabon",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 21,
+        "countryName": "Gambia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 30,
+        "countryName": "Georgia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 77,
+        "countryName": "Germany",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 26,
+        "countryName": "Ghana",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 24,
+        "countryName": "Gibraltar",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 15,
+        "countryName": "Greece",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 22,
+        "countryName": "Greenland",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 31,
+        "countryName": "Grenada",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 17,
+        "countryName": "Guadeloupe",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 12,
+        "countryName": "Guam",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 13,
+        "countryName": "Guatemala",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 27,
+        "countryName": "Guernsey",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 19,
+        "countryName": "Guinea",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 8,
+        "countryName": "Guyana",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 232,
+        "countryName": "Haiti",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 236,
+        "countryName": "Heard,McDonald Islands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 235,
+        "countryName": "Honduras",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 238,
+        "countryName": "Hong Kong S.A.R.",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 230,
+        "countryName": "Hungary",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 10,
+        "countryName": "Iceland",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 1,
+        "countryName": "India",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 227,
+        "countryName": "Indonesia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 218,
+        "countryName": "Iran",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 219,
+        "countryName": "Iraq",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 226,
+        "countryName": "Ireland",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 223,
+        "countryName": "Isle of Man",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 224,
+        "countryName": "Israel",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 216,
+        "countryName": "Italy",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 98,
+        "countryName": "Ivory Coast",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 207,
+        "countryName": "Jamaica",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 205,
+        "countryName": "Japan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 209,
+        "countryName": "Jersey",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 206,
+        "countryName": "Jordan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 192,
+        "countryName": "Kazakhstan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 203,
+        "countryName": "Kenya",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 199,
+        "countryName": "Kiribati",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 195,
+        "countryName": "Korea",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 196,
+        "countryName": "Korea, North",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 194,
+        "countryName": "Kuwait",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 202,
+        "countryName": "Kyrgyzstan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 191,
+        "countryName": "Laos",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 182,
+        "countryName": "Latvia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 190,
+        "countryName": "Lebanon",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 185,
+        "countryName": "Lesotho",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 186,
+        "countryName": "Liberia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 180,
+        "countryName": "Libya",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 188,
+        "countryName": "Liechtenstein",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 184,
+        "countryName": "Lithuania",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 183,
+        "countryName": "Luxembourg",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 167,
+        "countryName": "Macau S.A.R.",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 172,
+        "countryName": "Macedonia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 175,
+        "countryName": "Madagascar",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 153,
+        "countryName": "Malawi",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 149,
+        "countryName": "Malaysia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 155,
+        "countryName": "Maldives",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 171,
+        "countryName": "Mali",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 158,
+        "countryName": "Malta",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 174,
+        "countryName": "Marshall Islands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 163,
+        "countryName": "Martinique",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 161,
+        "countryName": "Mauritania",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 156,
+        "countryName": "Mauritius",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 173,
+        "countryName": "Mayotte",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 151,
+        "countryName": "Mexico",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 50,
+        "countryName": "Micronesia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 177,
+        "countryName": "Moldova",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 178,
+        "countryName": "Monaco",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 169,
+        "countryName": "Mongolia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 176,
+        "countryName": "Montenegro",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 160,
+        "countryName": "Montserrat",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 179,
+        "countryName": "Morocco",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 147,
+        "countryName": "Mozambique",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 170,
+        "countryName": "Myanmar",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 141,
+        "countryName": "Namibia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 121,
+        "countryName": "Nauru",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 124,
+        "countryName": "Nepal",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 129,
+        "countryName": "Netherlands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 150,
+        "countryName": "Netherlands Antilles",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 138,
+        "countryName": "New Caledonia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 113,
+        "countryName": "New Zealand",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 132,
+        "countryName": "Nicaragua",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 136,
+        "countryName": "Niger",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 133,
+        "countryName": "Nigeria",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 117,
+        "countryName": "Niue",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 134,
+        "countryName": "Norfolk Island",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 165,
+        "countryName": "Northern Mariana Islands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 126,
+        "countryName": "Norway",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 104,
+        "countryName": "Oman",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 81,
+        "countryName": "Pakistan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 71,
+        "countryName": "Palau",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 75,
+        "countryName": "Palestinian",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 90,
+        "countryName": "Panama",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 83,
+        "countryName": "Papua new Guinea",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 69,
+        "countryName": "Paraguay",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 86,
+        "countryName": "Peru",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 82,
+        "countryName": "Philippines",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 78,
+        "countryName": "Pitcairn Island",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 80,
+        "countryName": "Poland",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 74,
+        "countryName": "Portugal",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 76,
+        "countryName": "Puerto Rico",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 67,
+        "countryName": "Qatar",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 58,
+        "countryName": "Reunion",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 57,
+        "countryName": "Romania",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 53,
+        "countryName": "Russia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 51,
+        "countryName": "Rwanda",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 41,
+        "countryName": "Saint Helena",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 197,
+        "countryName": "Saint Kitts And Nevis",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 189,
+        "countryName": "Saint Lucia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 79,
+        "countryName": "Saint Pierre",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 201,
+        "countryName": "Samoa",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 35,
+        "countryName": "San Marino",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 25,
+        "countryName": "Sao Tome and Principe",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 47,
+        "countryName": "Saudi Arabia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 33,
+        "countryName": "Senegal",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 56,
+        "countryName": "Serbia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 45,
+        "countryName": "Seychelles",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 37,
+        "countryName": "Sierra Leone",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 42,
+        "countryName": "Singapore",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 38,
+        "countryName": "Slovakia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 40,
+        "countryName": "Slovenia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 46,
+        "countryName": "Solomon Islands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 32,
+        "countryName": "Somalia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 157,
+        "countryName": "South Africa",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 14,
+        "countryName": "South Georgia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 60,
+        "countryName": "Spain",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 187,
+        "countryName": "Sri Lanka",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 214,
+        "countryName": "St Vincent,Grenadines",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 28,
+        "countryName": "Suriname",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 39,
+        "countryName": "Svalbard",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 18,
+        "countryName": "Swaziland",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 43,
+        "countryName": "Sweden",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 99,
+        "countryName": "Switzerland",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 20,
+        "countryName": "Syria",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 237,
+        "countryName": "Taiwan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 4,
+        "countryName": "Tajikistan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 234,
+        "countryName": "Tanzania",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 5,
+        "countryName": "Thailand",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 2,
+        "countryName": "Timor-Leste",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 6,
+        "countryName": "Togo",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 3,
+        "countryName": "Tokelau",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 243,
+        "countryName": "Tonga",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 240,
+        "countryName": "Trinidad And Tobago",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 244,
+        "countryName": "Tunisia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 241,
+        "countryName": "Turkey",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 245,
+        "countryName": "Turkmenistan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 11,
+        "countryName": "Turks And Caicos Islands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 239,
+        "countryName": "Tuvalu",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 229,
+        "countryName": "Uganda",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 231,
+        "countryName": "Ukraine",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 166,
+        "countryName": "United Arab Emirates",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 34,
+        "countryName": "United Kingdom",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 225,
+        "countryName": "United States",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 222,
+        "countryName": "Uruguay",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 228,
+        "countryName": "US Minor Outlying Islands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 221,
+        "countryName": "Uzbekistan",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 208,
+        "countryName": "Vanuatu",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 215,
+        "countryName": "Vatican City State (HS)",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 213,
+        "countryName": "Venezuela",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 210,
+        "countryName": "Vietnam",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 212,
+        "countryName": "Virgin Islands (British)",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 211,
+        "countryName": "Virgin Islands (US)",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 204,
+        "countryName": "Wallis And Futuna Islands",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 62,
+        "countryName": "WESTERN SAHARA",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 181,
+        "countryName": "Yemen",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 140,
+        "countryName": "Zambia",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    },
+    {
+        "entry_id": 131,
+        "countryName": "Zimbabwe",
+        "phoneCode": null,
+        "countryCode": null,
+        "isBlackListedForPGTran": null
+    }
+]

@@ -1,0 +1,18 @@
+[
+			{
+		        "MenuID": "20",
+		        "Text": "Gallery",
+		        "RoleTypeId": 3,
+		        "URL": "soclinf",
+		        "UURL": "#/influencer/gallery",
+		        "StatusId": 1
+		    },
+		    {
+		        "MenuID": "21",
+		        "Text": "Influencer Report",
+		        "RoleTypeId": 3,
+		        "URL": "report",
+		        "UURL": "#/influencer/report",
+		        "StatusId": 1
+		    } 
+]

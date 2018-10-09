@@ -1,0 +1,12 @@
+[
+    {
+        "MenuID": 1,
+        "Text": "Dashboard",
+        "Description": "Dashboard",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "dash",
+        "UURL": "#/network-remote-dashboard",
+        "StatusId": 1
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "MenuID": 1,
+        "Text": "Dashboard",
+        "Description": "Dashboard",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "dash",
+        "UURL": "#/dashboards",
+        "StatusId": 1
+    },
+    {
+        "MenuID": 2,
+        "Text": "Campaigns",
+        "Description": "Campaigns",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "campg",
+        "StatusId": 1,
+        "submenu":[
+    		{
+		        "Text": "Campaign Management",
+		        "Description": "Campaign Management",
+		        "ParentID": "2",
+		        "RoleTypeId": 4,
+		        "URL": "#/campaigns/list-campaigns",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Creatives Management",
+		        "Description": "Creatives Management",
+		        "ParentID": "5",
+		        "RoleTypeId": 4,
+		        "URL": "#/creatives",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Change History",
+		        "Description": "Campaign History",
+		        "ParentID": "5",
+		        "RoleTypeId": 4,
+		        "URL": "#/campaignhistory/list",
+		        "StatusId": 1
+		    }
+        ]
+    },
+     {
+        "MenuID": 20,
+        "Text": "Social Influencer",
+        "Description": "Social Influencer",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "soclinf",
+        "StatusId": 1,
+        "submenu":[
+    		{
+		        "Text": "Gallery",
+		        "Description": "Gallery",
+		        "ParentID": "2",
+		        "RoleTypeId": 2,
+		        "URL": "#/influencer/gallery",
+		        "StatusId": 1
+		    } 
+        ]
+    }, 
+    {
+        "MenuID": 4,
+        "Text": "Sites & Apps",
+        "Description": "Sites & Apps",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "sitesapp",
+        "StatusId": 1,
+        "submenu":[
+        	{
+		        "Text": "Sites & Apps Management",
+		        "Description": "Sites & Apps Management",
+		        "ParentID": "8",
+		        "RoleTypeId": 4,
+		        "URL": "#/sites-apps",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Ad Unit Management",
+		        "Description": "Ad Unit Management",
+		        "ParentID": "8",
+		        "RoleTypeId": 4,
+		        "URL": "#/sites-apps/ad-units",
+		        "StatusId": 1
+		    }
+        ]
+    },
+    {
+        "MenuID": 6,
+        "Text": "Reports",
+        "Description": "Reports",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "report",
+        "StatusId": 1,
+         "submenu":[
+    		{
+		        "Text": "Site & App Report",
+		        "Description": "Site & App Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 4,
+		        "URL": "#/reports",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Campaign Report",
+		        "Description": "Campaign Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 4,
+		        "URL": "#/reports/campaign-admin-report",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "SSP Report",
+		        "Description": "SSp Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 4,
+		        "URL": "#/ssp-admin-reports",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Performance Report",
+		        "Description": "Performance Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 4,
+		        "URL": "#/reports/performance-reports",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Exchange Performance Report",
+		        "Description": "Exchange Performance Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 2,
+		        "URL": "#/reports/exchange-performance-reports",
+		        "StatusId": 1
+		    }            
+         ]
+    },
+    {
+        "MenuID": 21,
+        "Text": "List",
+        "Description": "List",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "audn",
+        "UURL": "#/list",
+        "StatusId": 1       
+    },
+    {
+        "MenuID": 9,
+        "Text": "Accounting",
+        "Description": "Accounting",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "accoutn",
+        "StatusId": 1,
+         "submenu":[
+		    {
+		        "Text": "Campaign Transactions",
+		        "Description": "Transaction History",
+		        "ParentID": "16",
+		        "RoleTypeId": 4,
+		        "URL": "#/accounting/transact-history",
+		        "StatusId": 1
+		    },
+		     {
+		        "Text": "Site & App Transactions",
+		        "Description": "Transaction History",
+		        "ParentID": "16",
+		        "RoleTypeId": 4,
+		        "URL": "#/accounting/client-siteapp-history",
+		        "StatusId": 1
+		    }
+         ]
+    },    
+    {
+        "MenuID": 7,
+        "Text": "Users Management",
+        "Description": "Users Management",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "usermn",
+        "StatusId": 1,
+         "submenu":[
+         	{
+		        "Text": "List Users",
+		        "Description": "List Users",
+		        "ParentID": "18",
+		        "RoleTypeId": 4,
+		        "URL": "#/users-management/list-users",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Group Management",
+		        "Description": "Group Management",
+		        "ParentID": "18",
+		        "RoleTypeId": 4,
+		        "URL": "#/users-management/group-management",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Active Users",
+		        "Description": "Active Users",
+		        "ParentID": "18",
+		        "RoleTypeId": 2,
+		        "URL": "#/active-users",
+		        "StatusId": 1
+		    }
+         ]
+    },
+    {
+        "MenuID": 8,
+        "Text": "Optimization",
+        "Description": "Optimization",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "optimz",
+        "StatusId": 1,
+         "submenu":[
+         	{
+		        "Text": "Mapping",
+		        "Description": "Mapping",
+		        "ParentID": "22",
+		        "RoleTypeId": 4,
+		        "URL": "#/optimization",
+		        "StatusId": 1
+		    }
+         ]
+    },    
+    {
+        "MenuID": 12,
+        "Text": "Payout",
+        "Description": "Payout",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "payout",
+        "StatusId": 1,
+        "submenu":[        			  
+		   	{
+		        "Text": "Payout Status",
+		        "Description": "Payout Status",
+		        "ParentID": "24",
+		        "RoleTypeId": 4,
+		        "URL": "#/payout/payout-status",
+		        "StatusId": 1
+		    }	   		    	   
+        ]
+    },
+    {
+        "MenuID": 13,
+        "Text": "Tools",
+        "Description": "Tools",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "tols",
+        "UURL": "#/tools/account-manager",
+        "StatusId": 1
+    },
+    {
+        "MenuID": 16,
+        "Text": "Media Planning",
+        "Description": "Media Planning",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "referral",
+        "UURL": "#/media-planning/media-list",
+        "StatusId": 1
+    }
+]

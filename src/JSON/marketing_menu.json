@@ -1,0 +1,22 @@
+[
+    {
+        "MenuID": 1,
+        "Text": "Dashboard",
+        "Description": "Dashboard",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "dash",
+        "UURL": "#/marketing-dashboard",
+        "StatusId": 1
+    },
+    {
+        "MenuID": 7,
+        "Text": "List of Users",
+        "Description": "List of Users",
+        "ParentID": "NULL",
+        "RoleTypeId": 15,
+        "URL": "usermn",
+        "UURL": "#/users-management/list-channel-users",
+        "StatusId": 1         
+    }
+]

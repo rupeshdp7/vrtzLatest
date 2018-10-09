@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name": "Above The Fold"
+    }, 
+    {
+        "id":3,
+        "name": "Below The Fold"
+    },
+    {
+        "id":4,
+        "name": "Header"
+    },
+    {
+        "id":5,
+        "name": "Footer"
+    },
+    {
+        "id":6,
+        "name": "Full Screen"
+    },
+    {
+        "id":7,
+        "name": "Sidebar"
+    }
+]

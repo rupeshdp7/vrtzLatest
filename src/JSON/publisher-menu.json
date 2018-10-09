@@ -1,0 +1,87 @@
+[    
+    {
+        "MenuID": 1,
+        "Text": "Dashboard",
+        "Description": "Dashboard",
+        "ParentID": "NULL",
+        "RoleTypeId": 3,
+        "URL": "dash",
+        "UURL": "#/dashboard",
+        "StatusId": 1
+    },
+    {
+        "MenuID": 4,
+        "Text": "Sites & Apps",
+        "Description": "Sites & Apps",
+        "ParentID": "NULL",
+        "RoleTypeId": 3,
+        "URL": "sitesapp",
+        "StatusId": 1,
+         "submenu":[
+         	{
+		        "Text": "Sites & Apps Management",
+		        "Description": "Sites & Apps Management",
+		        "ParentID": "8",
+		        "RoleTypeId": 3,
+		        "URL": "#/sites-apps",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Ad Unit Management",
+		        "Description": "Ad Unit Management",
+		        "ParentID": "8",
+		        "RoleTypeId": 3,
+		        "URL": "#/sites-apps/ad-units",
+		        "StatusId": 1
+		    }
+         ]        
+    },
+      
+    {
+        "MenuID": 6,
+        "Text": "Reports",
+        "Description": "Reports",
+        "ParentID": "NULL",
+        "RoleTypeId": 3,
+        "URL": "report",
+        "StatusId": 1,
+         "submenu":[
+         	{
+		        "Text": "Site & App Report",
+		        "Description": "Site & App Report",
+		        "ParentID": "41",
+		        "RoleTypeId": 3,
+		        "URL": "#/reports/report",
+		        "StatusId": 1
+		    }
+         ]
+    },
+    {
+        "MenuID": 9,
+        "Text": "Accounting",
+        "Description": "Accounting",
+        "ParentID": "NULL",
+        "RoleTypeId": 3,
+        "URL": "accoutn",
+        "StatusId": 1,
+         "submenu":[
+         	 {
+		        "Text": "Payment Settings",
+		        "Description": "Payment Settings",
+		        "ParentID": "42",
+		        "RoleTypeId": 3,
+		        "URL": "#/accounting/payment-setting",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Site & App Transactions",
+		        "Description": "Transaction History",
+		        "ParentID": "16",
+		        "RoleTypeId": 3,
+		        "URL": "#/accounting/client-siteapp-history",
+		        "StatusId": 1
+		    }
+         ]
+    }
+    
+]   

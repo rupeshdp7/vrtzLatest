@@ -1,0 +1,108 @@
+[
+    {
+        "MenuID": 1,
+        "Text": "Dashboard",
+        "Description": "Dashboard",
+        "ParentID": "NULL",
+        "RoleTypeId": 14,
+        "URL": "dash",
+        "UURL": "#/agency-dashboard",
+        "StatusId": 1
+    },    
+    {
+        "MenuID": 17,
+        "Text": "Advertisers",
+        "Description": "Advertisers",
+        "ParentID": "NULL",
+        "RoleTypeId": 14,
+        "URL": "usermn",
+		"UURL": "#/advertisers/list-advertisers",
+        "StatusId": 1
+        
+    },
+    {
+        "MenuID": 2,
+        "Text": "Campaigns",
+        "Description": "Campaigns",
+        "ParentID": "NULL",
+        "RoleTypeId": 14,
+        "URL": "campg",
+        "StatusId": 1,
+        "submenu":[
+    		{
+		        "Text": "Campaign Management",
+		        "Description": "Campaign Management",
+		        "ParentID": "2",
+		        "RoleTypeId": 14,
+		        "URL": "#/campaigns/list-campaigns",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Creatives Management",
+		        "Description": "Creatives Management",
+		        "ParentID": "5",
+		        "RoleTypeId": 14,
+		        "URL": "#/creatives",
+		        "StatusId": 1
+		    } 
+        ]
+    },
+      {
+        "MenuID": 9,
+        "Text": "Accounting",
+        "Description": "Accounting",
+        "ParentID": "NULL",
+        "RoleTypeId": 14,
+        "URL": "accoutn",
+        "StatusId": 1,
+         "submenu":[
+         	{
+		        "Text": "Add Credit",
+		        "Description": "Add Credit",
+		        "ParentID": "16",
+		        "RoleTypeId": 14,
+		        "URL": "#/accounting/ad-credit",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Campaign Transactions",
+		        "Description": "Transaction History",
+		        "ParentID": "16",
+		        "RoleTypeId": 14,
+		        "URL": "#/accounting/transact-history",
+		        "StatusId": 1
+		    }
+         ]
+    },
+   {
+        "MenuID": 6,
+        "Text": "Campaign Report",
+        "Description": "Campaign Report",
+        "ParentID": "NULL",
+        "RoleTypeId": 14,
+        "URL": "report",
+        "UURL": "#/reports/agency-campaign-report",
+        "StatusId": 1
+    },
+    {
+        "MenuID": 21,
+        "Text": "List",
+        "Description": "List",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "audn",
+        "UURL": "#/list",
+        "StatusId": 1       
+    },
+    {
+        "MenuID": 16,
+        "Text": "Media Planning",
+        "Description": "Media Planning",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "referral",
+        "UURL": "#/media-planning/media-list",
+        "StatusId": 1
+    }
+   
+]

@@ -1,0 +1,58 @@
+<div id="sidebar-shortcuts">
+    <div id="sidebar-shortcuts-mini">
+      <span class="btn btn-success"></span> <span class="btn btn-info"></span>
+      <span class="btn btn-warning"></span> <span class="btn btn-danger"></span>
+    </div>
+  </div>
+  <!--#sidebar-shortcuts-->
+  <ul class="nav nav-list" id="mens">
+    <li *ngFor="let menu of menuList"
+    class="{open:menu.MenuID==tabId}" ng-click="toggleTab(menu.MenuID);">
+      <a class="dropdown-toggle" [href]="menu.UURL"><span ng-bind-html="menu.Text"></span><b class="arrow icon-angle-up"></b></a>                        
+      <ul ng-if="menu.submenu" class="submenu">
+        <li ng-repeat="sub in menu.submenu" ng-show="sub.RoleTypeId!=3">
+          <a ng-show="sub.StatusId==3" ng-click="goTOPage(sub.URL);">{{sub.Text}}</a>
+          <a ng-show="sub.StatusId!=3" href="{{sub.URL}}" ng-click="showBrdcmb();">{{sub.Text}}</a>
+        </li>
+        <li ng-repeat="sub in menu.submenu" ng-show="(sub.RoleTypeId==3 && sub.StatusId!=2) || (sub.RoleTypeId==3 && sub.StatusId==2 && isNetworkRole=='true')">
+          <a href="{{sub.URL}}" ng-click="showBrdcmb();">{{sub.Text}}</a>
+        </li>
+      </ul>
+    </li>
+    <!-- <li>
+      <div id="managerpanel" ng-show="isClient||isAgency || isNetwork">
+        <div class="mgtxt">Account Manager:</div>
+        <!-- <div class="mgtxt1">{{am.name}}</div> 
+        <div class="mgtxt2"><img src="assets/icons/mail.png" align="absmiddle"> &nbsp;
+          <a href="mailto:{{am.containt}}">{{am.containt}}</a></div>
+        <div class="mgtxt2" ng-show="am.userId==1"><img src="assets/icons/yahoo.png" align="absmiddle"> &nbsp;
+          <a href="ymsgr:sendIM?{{am.code}}">{{am.code}}</a></div>
+        <div class="mgtxt2" ng-show="am.userId==2"><img src="assets/icons/skype.png" align="absmiddle"> &nbsp;
+          <a href="skype:{{am.code}}?action=chat">{{am.code}}</a></div>
+        <div class="mgtxt2" ng-show="am.userId==3"><img src="assets/icons/gtalk.png" align="absmiddle"> &nbsp;
+          <a href="gtalk:chat?jid={{am.code}}">{{am.code}}</a></div>
+        <div class="mgtxt2" ng-show="am.userId==4"><img src="assets/icons/msn.png" align="absmiddle"> &nbsp;
+          <a href="msnim:chat?contact={{am.code}}">{{am.code}}</a></div>
+        <div class="mgtxt2" ng-show="am.userId==5"><img src="assets/icons/aim_messenger.png" align="absmiddle"> &nbsp;
+          <a href="aim:goaim?screenname={{am.code}}">{{am.code}}</a></div>
+        <div class="mgtxt2" ng-show="am.userId==6"><a>{{am.code}}</a></div>
+      </div>
+    </li>	 -->
+   </ul>	
+   <!--/.nav-list-->
+   <div id="bottom_users" ng-show="isAdmin" ng-click="goTOPage('/active-users')" style="cursor: pointer;">
+    <div class="btitle">Right Now</div>
+    <div class="logcount"><img src="assets/icons/user-profile.png" align="absmiddle"> &nbsp;&nbsp; {{loggedin_user_count}}</div>
+    <div class="logtext">Active Users</div>
+  </div>
+  
+   
+  
+  <!-- <div id="banner300" ng-show="isClient && fromVertozDomain" style="position: fixed; bottom:0px; width:240px;">
+     <a><img src="assets/images/vertoz-300x250_new.jpeg" usemap="#Mapx300x250"></a>
+     <map name="Mapx300x250">
+        <area alt="" coords="9, 130, 91, 159" href="https://goo.gl/GYCVCn" target="_blank" shape="rect" />
+      <area alt="" coords="7, 167, 92, 194" href="https://goo.gl/byZCHJ" target="_blank" shape="rect" />
+    </map>
+   </div> -->
+  

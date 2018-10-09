@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor() { }
+  constructor(private loggedInUser : CookieService) { }
 
   ngOnInit() {
+    const allCookies: {} = this.loggedInUser.getAll();
+console.log(allCookies);
+
   }
 
 }

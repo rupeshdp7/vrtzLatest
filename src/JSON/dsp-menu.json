@@ -1,0 +1,22 @@
+[
+    {
+        "MenuID": 1,
+        "Text": "Report",
+        "Description": "Report",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "dash",
+        "UURL": "#/dsp-reports",
+        "StatusId": 1
+    },
+    {
+        "MenuID": 3,
+        "Text": "Violations",
+        "Description": "Violations",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "viola",
+        "UURL": "#/violations",
+        "StatusId": 1
+    }    
+]

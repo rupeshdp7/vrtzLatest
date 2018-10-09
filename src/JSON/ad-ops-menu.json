@@ -1,0 +1,424 @@
+[
+    {
+        "MenuID": 1,
+        "Text": "Dashboard",
+        "Description": "Dashboard",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "dash",
+        "UURL": "#/dashboards",
+        "StatusId": 1
+    },
+      
+    {
+        "MenuID": 2,
+        "Text": "Campaigns",
+        "Description": "Campaigns",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "campg",
+        "StatusId": 1,
+        "submenu":[
+    		{
+		        "Text": "Campaign Management",
+		        "Description": "Campaign Management",
+		        "ParentID": "2",
+		        "RoleTypeId": 9,
+		        "URL": "#/campaigns/list-campaigns",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Creatives Management",
+		        "Description": "Creatives Management",
+		        "ParentID": "5",
+		        "RoleTypeId": 9,
+		        "URL": "#/creatives",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Change History",
+		        "Description": "Campaign History",
+		        "ParentID": "5",
+		        "RoleTypeId": 9,
+		        "URL": "#/campaignhistory/list",
+		        "StatusId": 1
+		    }  
+        ]
+    },
+    {
+        "MenuID": 5,
+        "Text": "Partners",
+        "Description": "Partners",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "network",
+        "StatusId": 1,
+        "submenu":[
+        	{
+		        "Text": "Partners Management",
+		        "Description": "Partners Management",
+		        "ParentID": "11",
+		        "RoleTypeId": 2,
+		        "URL": "#/networks/my-networks",
+		        "StatusId": 1
+		    }
+        ]
+    },
+    {
+        "MenuID": 20,
+        "Text": "Social Influencer<font color='black'><sup> Beta</sup></font>",
+        "Description": "Social Influencer",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "soclinf",
+        "StatusId": 1,
+        "submenu":[
+    		{
+		        "Text": "Gallery",
+		        "Description": "Gallery",
+		        "ParentID": "2",
+		        "RoleTypeId": 2,
+		        "URL": "#/influencer/gallery",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Influencer Report",
+		        "Description": "Influencer Report",
+		        "ParentID": "2",
+		        "RoleTypeId": 2,
+		        "URL": "#/influencer/report",
+		        "StatusId": 1
+		    } 
+        ]
+    },    
+    {
+        "MenuID": 4,
+        "Text": "Sites & Apps",
+        "Description": "Sites & Apps",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "sitesapp",
+        "StatusId": 1,
+        "submenu":[
+        	{
+		        "Text": "Sites & Apps Management",
+		        "Description": "Sites & Apps Management",
+		        "ParentID": "8",
+		        "RoleTypeId": 9,
+		        "URL": "#/sites-apps",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Ad Unit Management",
+		        "Description": "Ad Unit Management",
+		        "ParentID": "8",
+		        "RoleTypeId": 9,
+		        "URL": "#/sites-apps/ad-units",
+		        "StatusId": 1
+		    }
+        ]
+    },
+    {
+        "MenuID": 3,
+        "Text": "Violations",
+        "Description": "Violations",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "viola",
+        "UURL": "#/violations",
+        "StatusId": 1
+    },{
+        "MenuID": 18,
+        "Text": "Rules",
+        "Description": "Rules",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "rules",
+        "StatusId": 1,
+        "submenu":[
+        		    {
+		        "Text": "SSP Config",
+		        "Description": "SSP Config",
+		        "ParentID": "11",
+		        "RoleTypeId": 2,
+		        "URL": "#/exchange/list-exchanges",
+		        "StatusId": 1
+		    }
+     
+		     ,{
+		        "Text": "Demand Config",
+		        "Description": "Demand Config",
+		        "ParentID": "11",
+		        "RoleTypeId": 2,
+		        "URL": "#/rules/list-rules",
+		        "StatusId": 1
+		    }
+		    
+		    ,{
+		        "Text": "DSP PMP Deals",
+		        "Description": "DSP PMP Deals",
+		        "ParentID": "11",
+		        "RoleTypeId": 2,
+		        "URL": "#/pmprules/list-pmprules",
+		        "StatusId": 1
+		    }
+		    ,{
+		        "Text": "SSP PMP Deals",
+		        "Description": "SSP PMP Deals",
+		        "ParentID": "11",
+		        "RoleTypeId": 2,
+		        "URL": "#/ssppmprules/list-ssppmprules",
+		        "StatusId": 1
+		    }
+        ]
+    },
+    {
+        "MenuID": 6,
+        "Text": "Reports",
+        "Description": "Reports",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "report",
+        "StatusId": 1,
+         "submenu":[
+    		{
+		        "Text": "Site & App Report",
+		        "Description": "Site & App Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 9,
+		        "URL": "#/reports",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Campaign Report",
+		        "Description": "Campaign Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 9,
+		        "URL": "#/reports/campaign-admin-report",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "SSP Report",
+		        "Description": "SSp Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 2,
+		        "URL": "#/ssp-admin-reports",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "DSP PMP Report",
+		        "Description": "DSP PMP Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 9,
+		        "URL": "#/pmp-report",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "SSP PMP Report",
+		        "Description": "SSP PMP Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 9,
+		        "URL": "#/reverse-pmp-report",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Bidder Temp Report",
+		        "Description": "Bidder Temp Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 2,
+		        "URL": "#/bidder-temp-reports",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Performance Report",
+		        "Description": "Performance Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 2,
+		        "URL": "#/reports/performance-reports",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Exchange Performance Report",
+		        "Description": "Exchange Performance Report",
+		        "ParentID": "14",
+		        "RoleTypeId": 2,
+		        "URL": "#/reports/exchange-performance-reports",
+		        "StatusId": 1
+		    }
+         ]
+    },
+     {
+        "MenuID": 21,
+        "Text": "List",
+        "Description": "List",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "audn",
+        "UURL": "#/list",
+        "StatusId": 1       
+    },
+    
+    {
+        "MenuID": 9,
+        "Text": "Accounting",
+        "Description": "Accounting",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "accoutn",
+        "StatusId": 1,
+         "submenu":[
+         	{
+		        "Text": "Campaign Transactions",
+		        "Description": "Transaction History",
+		        "ParentID": "16",
+		        "RoleTypeId": 9,
+		        "URL": "#/accounting/transact-history",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Site & App Transactions",
+		        "Description": "Transaction History",
+		        "ParentID": "16",
+		        "RoleTypeId": 9,
+		        "URL": "#/accounting/client-siteapp-history",
+		        "StatusId": 1
+		    }
+         ]
+    },    
+    {
+        "MenuID": 7,
+        "Text": "Users Management",
+        "Description": "Users Management",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "usermn",
+        "StatusId": 1,
+         "submenu":[
+         	{
+		        "Text": "List Users",
+		        "Description": "List Users",
+		        "ParentID": "18",
+		        "RoleTypeId": 9,
+		        "URL": "#/users-management/list-users",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Create New User",
+		        "Description": "Create New User",
+		        "ParentID": "18",
+		        "RoleTypeId": 9,
+		        "URL": "#/users-management/create-new-users",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Group Management",
+		        "Description": "Group Management",
+		        "ParentID": "18",
+		        "RoleTypeId": 9,
+		        "URL": "#/users-management/group-management",
+		        "StatusId": 1
+		    }
+         ]
+    },
+    {
+        "MenuID": 8,
+        "Text": "Optimization",
+        "Description": "Optimization",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "optimz",
+        "StatusId": 1,
+         "submenu":[
+         	{
+		        "Text": "Mapping",
+		        "Description": "Mapping",
+		        "ParentID": "22",
+		        "RoleTypeId": 9,
+		        "URL": "#/optimization",
+		        "StatusId": 1
+		    }
+         ]
+    },
+    {
+        "MenuID": 10,
+        "Text": "Tools",
+        "Description": "Tools",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "tols",
+        "UURL": "#/toolsAdops",
+        "StatusId": 1       
+    },
+    {
+        "MenuID": 11,
+        "Text": "System",
+        "Description": "System",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "system",
+        "StatusId": 1,
+        "submenu":[        	
+		    {
+		        "Text": "Cron List",
+		        "Description": "Cron List",
+		        "ParentID": "24",
+		        "RoleTypeId": 9,
+		        "URL": "#/tools/cron-list",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Cron Log List",
+		        "Description": "Cron Log List",
+		        "ParentID": "24",
+		        "RoleTypeId": 9,
+		        "URL": "#/tools/cron-log-list",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Cron Error List",
+		        "Description": "Cron Error List",
+		        "ParentID": "24",
+		        "RoleTypeId": 9,
+		        "URL": "#/tools/cron-error-list",
+		        "StatusId": 1
+		    }		    
+        ]
+    },
+    {
+        "MenuID": 12,
+        "Text": "Payout",
+        "Description": "Payout",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "payout",
+        "StatusId": 1,
+        "submenu":[        	
+		    {
+		        "Text": "Payout List- Adops",
+		        "Description": "Payout List- Adops",
+		        "ParentID": "24",
+		        "RoleTypeId": 9,
+		        "URL": "#/payout/payout-list-adops",
+		        "StatusId": 1
+		    },		    		   		   
+		    {
+		        "Text": "Payout Status",
+		        "Description": "Payout Status",
+		        "ParentID": "24",
+		        "RoleTypeId": 9,
+		        "URL": "#/payout/payout-status",
+		        "StatusId": 1
+		    }
+        ]
+    },
+     {
+        "MenuID": 16,
+        "Text": "Media Planning",
+        "Description": "Media Planning",
+        "ParentID": "NULL",
+        "RoleTypeId": 9,
+        "URL": "referral",
+		"UURL": "#/media-planning/media-list",
+        "StatusId": 1
+    }
+]

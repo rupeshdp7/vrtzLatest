@@ -1,0 +1,45 @@
+[
+	{
+        "MenuID": 11,
+        "Text": "System",
+        "Description": "System",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "system",
+        "StatusId": 1,
+        "submenu":[        	
+		    {
+		        "Text": "Cron List",
+		        "Description": "Cron List",
+		        "ParentID": "24",
+		        "RoleTypeId": 2,
+		        "URL": "#/tools/cron-list",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Cron Log List",
+		        "Description": "Cron Log List",
+		        "ParentID": "24",
+		        "RoleTypeId": 2,
+		        "URL": "#/tools/cron-log-list",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Cron Error List",
+		        "Description": "Cron Error List",
+		        "ParentID": "24",
+		        "RoleTypeId": 2,
+		        "URL": "#/tools/cron-error-list",
+		        "StatusId": 1
+		    },
+		    {
+		        "Text": "Email Notification",
+		        "Description": "Email Notification",
+		        "ParentID": "24",
+		        "RoleTypeId": 2,
+		        "URL": "#/tools/emailnotification",
+		        "StatusId": 1
+		    }	    
+        ]
+    }
+ ]

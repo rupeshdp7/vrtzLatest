@@ -1,0 +1,32 @@
+[
+    {
+        "MenuID": 1,
+        "Text": "Dashboard",
+        "Description": "Dashboard",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "dash",
+        "UURL": "#/network-dashboard",
+        "StatusId": 1
+    },  
+    {
+        "MenuID": 4,
+        "Text": "Sites & Apps",
+        "Description": "Sites & Apps",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "sitesapp",
+        "UURL": "#/sites-apps/sites-app-network",
+        "StatusId": 1       
+    },
+    {
+        "MenuID": 6,
+        "Text": "Reports",
+        "Description": "Reports",
+        "ParentID": "NULL",
+        "RoleTypeId": 4,
+        "URL": "report",
+        "UURL": "#/reports/network-reports",
+        "StatusId": 1       
+    }
+]

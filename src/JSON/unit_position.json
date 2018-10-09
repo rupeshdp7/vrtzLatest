@@ -1,0 +1,38 @@
+[
+	{
+		"id":1,
+		"name":"Top Left"
+	},
+	{
+		"id":2,
+		"name":"Top Center"
+	},
+	{
+		"id":3,
+		"name":"Top Right"
+	},
+	{
+		"id":4,
+		"name":"Middle Left"
+	},
+	{
+		"id":5,
+		"name":"Middle Center"
+	},
+	{
+		"id":6,
+		"name":"Middle Right"
+	},
+	{
+		"id":7,
+		"name":"Bottom Left"
+	},
+	{
+		"id":8,
+		"name":"Bottom Center"
+	},
+	{
+		"id":9,
+		"name":"Bottom Right"
+	}
+]

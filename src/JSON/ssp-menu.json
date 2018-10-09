@@ -1,0 +1,12 @@
+[
+    {
+        "MenuID": 1,
+        "Text": "Report",
+        "Description": "Report",
+        "ParentID": "NULL",
+        "RoleTypeId": 2,
+        "URL": "dash",
+        "UURL": "#/ssp-reports",
+        "StatusId": 1
+    }    
+]

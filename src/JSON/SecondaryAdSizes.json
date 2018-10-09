@@ -1,0 +1,32 @@
+[{
+    "entry_id":"132",
+    "childs": [{
+        "flexibleAdSizeId": "135",
+        "adSize": "970X90"
+    }, {
+        "flexibleAdSizeId": "136",
+        "adSize": "728X90"
+    }, {
+        "flexibleAdSizeId": "142",
+        "adSize": "728X250"
+    }]},{
+    "entry_id":"133",
+    "childs": [{
+        "flexibleAdSizeId": "137",
+        "adSize": "300X250"
+    }, {
+        "flexibleAdSizeId": "138",
+        "adSize": "125X125"
+    }, {
+        "flexibleAdSizeId": "139",
+        "adSize": "250X250"
+    }]},{
+    "entry_id":"134",
+    "childs": [{
+        "flexibleAdSizeId": "140",
+        "adSize": "160X600"
+    }, {
+        "flexibleAdSizeId": "141",
+        "adSize": "120X600"
+    }]}
+]
