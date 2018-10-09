@@ -1,16 +1,26 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { Router,
+  Event, 
+  NavigationStart, RoutesRecognized,RouteConfigLoadStart, 
+  RouteConfigLoadEnd, NavigationEnd, NavigationCancel, NavigationError } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent  implements OnInit{
   title = 'vrtzLatest';
-  router: string;
+  _router ='';
 
-  constructor(private _router: Router){
-          this.router = _router.url; 
+  constructor(private router: Router){
     }
+    ngOnInit(){
+      this.router.events.subscribe((event : Event) => {
+        console.log(this);
+           if(event instanceof NavigationStart) {
+              console.log(this.router);
+           }
+      });
+  }
 }

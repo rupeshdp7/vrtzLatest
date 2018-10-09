@@ -7,7 +7,7 @@ import { CookieService } from 'ngx-cookie-service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-
+  
   constructor(private loggedInUser : CookieService) { }
 
   ngOnInit() {

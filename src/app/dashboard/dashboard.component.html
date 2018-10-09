@@ -1,3 +1,87 @@
-<p>
-  dashboard works!
-</p>
+<div class="row-fluid" *ngIf="(isAdvertiser || isSubAdvertiser) && fromVertozDomain">
+  <!--PAGE CONTENT BEGINS HERE-->
+  <div class="tab-pane in active">
+    <div class="bdrlt pad0">
+      <div class="dgreyhd">
+        Campaigns Overview
+        <div class="sarrow">
+          <a id="campaignt" class="toggle-down">open</a>
+        </div>
+      </div>
+      <div *ngIf="!(camp_earnings>0) && !isAdvertiser" style="padding: 10px; display: none;">
+        Currently, there are no advertiser campaigns active on your account. In order to become an advertiser on our system, and to activate the campaigns, please <a href="#/accounting/ad-credit">click here</a>
+      </div>
+      <div class="ltgreyhd campaign" *ngIf="!isAdvertiser">
+        Estimated Spend
+        <!-- <div class="crdtxt">Credit Balance  ${{camp_earnings| number:2}}</div> -->
+      </div>
+      <div class="disinblk campaign">
+        <div class="transbox">
+          <div class="tbold">
+            <span class="blue">Today</span> &nbsp; <span class="nos">?
+              <div class="ttp">Outlines the spend for today</div>
+            </span>
+          </div>
+          <div class="tprice" id="camtoday"></div>
+        </div>
+        <div class="transbox">
+          <div class="tbold">
+            <span class="blue">Yesterday</span> &nbsp; <span class="nos">?
+              <div class="ttp">Outlines the spend for yesterday</div>
+            </span>
+          </div>
+          <div class="tprice" id="camtoday1"></div>
+        </div>
+        <div class="transbox">
+          <div class="tbold">
+            <span class="blue">This month</span> &nbsp; <span class="nos">?
+              <div class="ttp">Outlines the spend for the present month</div>
+            </span>
+          </div>
+          <div class="tprice" id="camtoday2"></div>
+        </div>
+        <div class="transbox transblu">
+          <div class="tbold">
+            <span class="white">Last Month</span> &nbsp; <span class="nos">?
+              <div class="ttp">Outlines the spend for last month</div>
+            </span>
+          </div>
+          <div class="tprice white" id="camtoday3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br> <br> <br>
+  <div class="row-fluid campaign">
+    <div class="txrt frr">
+      Showing {{campaigntrstatus}} statistics &nbsp;&nbsp; <select class="normal" ng-model="transactv1" ng-change="showtransaction1();" ng-init="transactv1='4'">
+        <option value="1">Today</option>
+        <option value="2">Yesterday</option>
+        <option value="3">Last 7 Days</option>
+        <option value="4">Current Month</option>
+        <option value="5">Last Month</option>
+      </select>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <br>
+  <div class="bdrlt campaign">
+    <div class="widget-header header-color-black graph">
+      <h5 class="">
+        <b class="dbtp"><img src="assets/images/d-ico-1.png" /> Impressions vs Clicks</b>
+      </h5>
+      <div class="selc">
+        <div class="fl">
+          <input type="checkbox" ng-model="showCampGraph" checked="checked"> <span class="lbl"> Show Graph</span>
+        </div>
+      </div>
+    </div>
+    <input type="hidden" name="id1" id="id1">
+    <div id="curve_chart1" *ngIf="showCampGraph" style="width: 100%; height: 500px;"></div>
+    <div id="maintbl1">
+      <div id='List1'></div>
+    </div>
+    <!--PAGE CONTENT ENDS HERE-->
+  </div>
+  <!--/row-->
+</div>
