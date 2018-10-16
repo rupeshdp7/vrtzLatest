@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "vrtzLatest": {
-      "root": "",
+      "root": "src",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
@@ -20,7 +20,8 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/JSON"
             ],
             "styles": [
               "src/styles.css",
