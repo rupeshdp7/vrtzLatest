@@ -1,4 +1,4 @@
-<div class="row-fluid" *ngIf="(isAdvertiser || isSubAdvertiser) && fromVertozDomain">
+<div class="row-fluid">
   <!--PAGE CONTENT BEGINS HERE-->
   <div class="tab-pane in active">
     <div class="bdrlt pad0">
@@ -9,7 +9,8 @@
         </div>
       </div>
       <div *ngIf="!(camp_earnings>0) && !isAdvertiser" style="padding: 10px; display: none;">
-        Currently, there are no advertiser campaigns active on your account. In order to become an advertiser on our system, and to activate the campaigns, please <a href="#/accounting/ad-credit">click here</a>
+        Currently, there are no advertiser campaigns active on your account. In order to become an 
+        advertiser on our system, and to activate the campaigns, please <a href="#/accounting/ad-credit">click here</a>
       </div>
       <div class="ltgreyhd campaign" *ngIf="!isAdvertiser">
         Estimated Spend

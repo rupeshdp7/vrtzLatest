@@ -12,7 +12,7 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
     const allCookies: {} = this.loggedInUser.getAll();
-console.log(allCookies);
+    console.log(allCookies);
 
   }
 

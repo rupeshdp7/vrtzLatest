@@ -1,5 +1,4 @@
-import { Deserializable } from "./deserializable";
-export class UserCookies  implements Deserializable{
+export class UserCookies{
         public tokenId : string;
         public fullname : string;
         public emailid : string;
