@@ -1,19 +1,23 @@
 <div id="sidebar-shortcuts">
-    <div id="sidebar-shortcuts-mini">
-      <span class="btn btn-success"></span> <span class="btn btn-info"></span>
-      <span class="btn btn-warning"></span> <span class="btn btn-danger"></span>
-    </div>
+  <div id="sidebar-shortcuts-mini">
+    <span class="btn btn-success"></span> <span class="btn btn-info"></span>
+    <span class="btn btn-warning"></span> <span class="btn btn-danger"></span>
   </div>
+</div>
 
-  <!--#sidebar-shortcuts-->
-  <ul class="nav nav-list" id="mens">
-    <li *ngFor="let menu of menulist">
-      <a class="dropdown-toggle" [href]="menu.URL"><span>{{menu.Text}}</span><b class="arrow icon-angle-up"></b></a>                        
-      <ul  class="submenu">
-        <li *ngFor="let sub of menu.submenu" >
-          <a>{{sub.Text}}</a>
-        </li>
-      </ul>
-    </li>
-    
-   </ul>	
+<!--#sidebar-shortcuts-->
+<ul class="nav nav-list" id="mens">
+  <li *ngFor="let menu of menulist">
+    <a class="dropdown-toggle" [href]="menu.UURL" *ngIf="menu.UURL">
+      <span>{{menu.Text}}</span><b class="arrow icon-angle-up"></b></a>
+    <a class="dropdown-toggle" (click)="changeMenuId(menu.MenuID)" *ngIf="!menu.UURL" >
+      <span>{{menu.Text}}</span><b class="arrow icon-angle-up"></b></a>
+          
+    <ul *ngIf="menuId==menu.MenuID">
+      <li *ngFor="let sub of menu.submenu">
+        <a>{{sub.Text}}</a>
+      </li>
+    </ul>
+  </li>
+
+</ul>

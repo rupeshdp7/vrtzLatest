@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LoginUser } from "../login/login-user";
 import { Router } from "@angular/router";
-// import { UserCookies } from "../user-cookies";
 import { map } from 'rxjs/operators';
 import { AuthServiceService } from '../_services/auth-service.service';
 @Component({
@@ -28,11 +27,15 @@ export class LoginComponent implements OnInit {
       . subscribe((json: Object) => {
           // this.user = new UserCookies().deserialize(json);
           this.user = json;
+          localStorage.setItem('loggedinuserdetails', JSON.stringify(json))
           console.log(this.user);
         this.router.navigate(['dashboard']);
       }, 
       err => { alert(err.error.responseText) } 
       );
+  }
+  doLogout(){
+    this.router.navigate(['/login']);
   }
 
 }
