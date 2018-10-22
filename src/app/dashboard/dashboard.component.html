@@ -1,3 +1,20 @@
+<div class="row">
+  <table class="website-table">
+    <thead>
+      <tr>
+        <th>Campaign Id</th><th>Campaign Name</th><th>User Name</th>
+      </tr>
+    </thead>
+    <tbody>
+       <tr *ngFor="let campaign of campaignList.records">
+         <td>{{campaign.campaignId}}</td>
+         <td>{{campaign.campaignName}}</td>
+         <td>{{campaign.userName}}</td>
+         
+       </tr>
+    </tbody>
+  </table>
+</div>
 <div class="row-fluid">
   <!--PAGE CONTENT BEGINS HERE-->
   <div class="tab-pane in active">

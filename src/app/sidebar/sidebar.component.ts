@@ -13,9 +13,7 @@ export class SidebarComponent implements OnInit {
   menuId : number;
   constructor(private http: HttpClient) { }
   ngOnInit() {
-    console.log(localStorage.getItem('loggedinuserdetails'));
     this.loggedinuserdetails=JSON.parse(localStorage.getItem('loggedinuserdetails'));
-    console.log(this.loggedinuserdetails);
     if(this.loggedinuserdetails.groupid==3){
       console.log("self managed client");
       this.http.get(`/JSON/self-client-menu.json`, {})
