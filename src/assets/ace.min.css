@@ -5618,7 +5618,6 @@ top:35%
 	right:0;
 	top:0;
 	bottom:0;
-	background:radial-gradient(9px 9px 0deg, circle cover, #0ff 0, rgba(0, 0, 255, 0) 100%, #00f 95%)
 }
 .infobox-container {
 	text-align:center;
@@ -7658,7 +7657,7 @@ margin-right:4px
 	background:-o-linear-gradient(top, #cf3e73 10%, #fff 20%, #2283c5 30%, #fff 40%, #87b87f 50%, #fff 60%, #ffb752 70%, #fff 80%, #d15b47 90%, #fff 100%);
 	background:-ms-linear-gradient(top, #cf3e73 10%, #fff 20%, #2283c5 30%, #fff 40%, #87b87f 50%, #fff 60%, #ffb752 70%, #fff 80%, #d15b47 90%, #fff 100%);
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#CF3E73', endColorstr='#FFB752', GradientType=0);
-	background:linear-gradient(top, #cf3e73 10%, #fff 20%, #2283c5 30%, #fff 40%, #87b87f 50%, #fff 60%, #ffb752 70%, #fff 80%, #d15b47 90%, #fff 100%)
+	background:linear-gradient(to top, #cf3e73 10%, #fff 20%, #2283c5 30%, #fff 40%, #87b87f 50%, #fff 60%, #ffb752 70%, #fff 80%, #d15b47 90%, #fff 100%)
 }
 .wysiwyg-toolbar input[type=file] {
 	display:none

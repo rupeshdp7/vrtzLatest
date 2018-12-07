@@ -12,6 +12,7 @@ export class LoginComponent implements OnInit {
   model = new LoginUser();
   submitted = false;
   user : Object;
+  fromVertozDomain:boolean = true;
   constructor(private authservice: AuthServiceService,
     private router: Router) { }
   

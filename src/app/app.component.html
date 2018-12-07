@@ -3,7 +3,7 @@
     <app-header></app-header>
   </div>
   <div class="row">
-    <div class="col-md-2" >
+    <div class="col-md-2" >{{title}}
       <app-sidebar *ngIf="router.url != '/' && router.url !='/login'"></app-sidebar>
     </div>
     <div class="col-md-10">

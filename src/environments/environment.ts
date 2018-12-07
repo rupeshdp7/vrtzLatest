@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  serviceUrl : 'https://api.vertoz.com/ip/',
-  reportUrl : 'https://api.vertoz.com/reportip/'
+  serviceUrl : 'https://beta-api.vertoz.com:444/ip/',
+  reportUrl : 'https://beta-api.vertoz.com:444/reportip/'
 };
 
 /*

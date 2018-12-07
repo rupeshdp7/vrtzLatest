@@ -763,8 +763,7 @@ ul.nav-list li a[ng-href^="#/"] b.icon-angle-up{
 
 table.website-table th{
 	background: #0096cf !important;
-	position:sticky !important;
-	top:0px !important;
+	position:relative;
 	font-weight: bold !important;
 }
 

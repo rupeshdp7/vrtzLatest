@@ -15,6 +15,8 @@ export class HeaderComponent implements OnInit {
   isPublisher : boolean = false;
   isAgency : boolean = false;
   username :string = "Rupesh";
+  showCampGraph: boolean = true;
+  openPage : boolean = true;
   constructor(private router : Router) { }
 
   ngOnInit() {

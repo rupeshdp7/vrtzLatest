@@ -18,11 +18,18 @@ export class DashboardService {
       headers: new HttpHeaders({
         'tokenId':JSON.parse(this.userDetails).tokenId,
         'content-type' :'text/html'
-      })
+      }),
+      responseType: 'text'
     }
-    return this.http.get<string>(`${environment.reportUrl}performanceoverview/${period}`,
-  httpOptions)
+    return this.http.get(`${environment.reportUrl}performanceoverview/${period}`,
+  {headers:{'tokenId': JSON.parse(this.userDetails).tokenId, 'content-type':'text/plain'}, responseType:'text'})
     .pipe(map(overview=>overview))
+  }
+  getAdvertiserEstimatedRevenue(){
+    return this.http.get(`${environment.reportUrl}advertiserEstimatedEarning`,{headers: {
+      'tokenId': JSON.parse(this.userDetails).tokenId,
+      'content-type' : 'text/html'
+    }, responseType:'text'}) .pipe(map(earnings=>earnings));
   }
   getCampaignLists(search:Object){
     let httpOptions = {

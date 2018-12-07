@@ -14,6 +14,8 @@ import { MyNavComponent } from './my-nav/my-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
 import { MatDashboardComponent } from './mat-dashboard/mat-dashboard.component';
+import { ChartModule, Chart } from 'angular-highcharts';
+
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { MatDashboardComponent } from './mat-dashboard/mat-dashboard.component';
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule/* ,
+    ChartModule,
+    Chart */
   ],
   providers: [CookieService],
   bootstrap: [AppComponent]

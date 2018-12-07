@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DashboardService } from "../_services/dashboard.service";
 import { first } from 'rxjs/operators';
 import { CsvtojsonService } from "../_services/csvtojson.service";
-
+import { GoogleCharts } from "google-charts";
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -10,6 +10,11 @@ import { CsvtojsonService } from "../_services/csvtojson.service";
 })
 export class DashboardComponent implements OnInit {
   period: number = 4;
+  camp_earnings:number=0;
+  isAdvertiser:boolean=true;
+  campaigntrstatus : boolean = true;
+  showCampGraph : boolean = true;
+
   searchObject: Object = {
     "searchQuery": "",
     "userId": "", "creativeTypeId": "",
@@ -24,6 +29,7 @@ export class DashboardComponent implements OnInit {
   }
   campaignList: Object = { 'totalCount': 0, records: [] };
   performanceData: Object;
+  earningsData:Object;
   constructor(private dasboardservice: DashboardService, private csvtojson: CsvtojsonService) {
   }
   ngOnInit() {
@@ -32,6 +38,9 @@ export class DashboardComponent implements OnInit {
     console.log(loggedinuserdetails);
     this.getCampaignOverview();
     this.getCampaignList();
+    this.getEarnings();
+    // this.drawChart();
+    GoogleCharts.load(this.drawChart);
   }
   getCampaignOverview() {
     this.dasboardservice.getCampaignOverviews(this.period).subscribe(stringResponse => {
@@ -48,8 +57,29 @@ export class DashboardComponent implements OnInit {
         console.log(typeof campaignList);
       })
   }
+  getEarnings(){
+    this.dasboardservice.getAdvertiserEstimatedRevenue()
+    .subscribe(stringResponse =>{
+      console.log(stringResponse);
+      console.log(typeof stringResponse)
+      // this.convertCSV2JSON(stringResponse);
+    })
+  }
   convertCSV2JSON(csv: string) {
     this.performanceData = this.csvtojson.CSV2JSON(csv);
     console.log(this.performanceData);
   }
+  drawChart() {
+ 
+    // Standard google charts functionality is available as GoogleCharts.api after load
+    const data = GoogleCharts.api.visualization.arrayToDataTable([
+        ['Chart thing', 'Chart amount'],
+        ['Lorem ipsum', 60],
+        ['Dolor sit', 22],
+        ['Sit amet', 18]
+    ]);
+    const pie_1_chart = new GoogleCharts.api.visualization.PieChart(document.getElementById('chart1'));
+    pie_1_chart.draw(data);
+}
+
 }
