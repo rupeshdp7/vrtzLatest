@@ -9,8 +9,7 @@ import { Router, Event,  NavigationStart, RoutesRecognized,RouteConfigLoadStart,
 export class AppComponent  implements OnInit{
   title = 'vrtzLatest';
   _router ='';
-  router;
-  constructor( router: Router){
+  constructor( private router: Router){
     }
     ngOnInit(){
       this.router.events.subscribe((event : Event) => {
