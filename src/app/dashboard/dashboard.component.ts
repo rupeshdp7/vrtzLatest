@@ -70,8 +70,6 @@ export class DashboardComponent implements OnInit {
     console.log(this.performanceData);
   }
   drawChart() {
- 
-    // Standard google charts functionality is available as GoogleCharts.api after load
     const data = GoogleCharts.api.visualization.arrayToDataTable([
         ['Chart thing', 'Chart amount'],
         ['Lorem ipsum', 60],
